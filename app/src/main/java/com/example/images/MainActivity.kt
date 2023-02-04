@@ -18,9 +18,11 @@ class MainActivity : AppCompatActivity() {
         imgArray.add(R.drawable.img2)
         imgArray.add(R.drawable.img3)
         imgArray.add(R.drawable.img4)
-        imgArray.add(R.drawable.img5)
         imgArray.add(R.drawable.img6)
         imgArray.add(R.drawable.img7)
+        imgArray.add(R.drawable.img8)
+        imgArray.add(R.drawable.img_8)
+        imgArray.add(R.drawable.img9)
 
         prev.setOnClickListener {
             if (index > 0){
@@ -62,6 +64,10 @@ class MainActivity : AppCompatActivity() {
             pic.setImageResource(R.drawable.img7)
         }else if (id == R.id.img7){
             pic.setImageResource(R.drawable.img8)
+        }else if (id == R.id.img8){
+            pic.setImageResource(R.drawable.img_8)
+        }else if (id == R.id.img9){
+            pic.setImageResource(R.drawable.img9)
         }
         img0.visibility = View.INVISIBLE
         img1.visibility = View.INVISIBLE
@@ -71,6 +77,8 @@ class MainActivity : AppCompatActivity() {
         img5.visibility = View.INVISIBLE
         img6.visibility = View.INVISIBLE
         img7.visibility = View.INVISIBLE
+        img8.visibility = View.INVISIBLE
+        img9.visibility = View.INVISIBLE
         pic.visibility = View.VISIBLE
         prev.visibility = View.VISIBLE
         exit.visibility = View.VISIBLE
@@ -86,6 +94,8 @@ class MainActivity : AppCompatActivity() {
         img5.visibility = View.VISIBLE
         img6.visibility = View.VISIBLE
         img7.visibility = View.VISIBLE
+        img8.visibility = View.VISIBLE
+        img9.visibility = View.VISIBLE
         pic.visibility = View.INVISIBLE
         prev.visibility = View.INVISIBLE
         next.visibility = View.INVISIBLE
