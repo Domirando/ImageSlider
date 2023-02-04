@@ -106,7 +106,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="<"
+        android:text="PREV"
         android:textSize="25dp"
         android:textColor="@color/purple_700"
         android:visibility="invisible"
@@ -121,7 +121,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=">"
+        android:text="NEXT"
         tools:ignore="MissingConstraints" />
     <TextView
         android:id="@+id/exit"
@@ -134,6 +134,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
         android:onClick="exit"
         tools:ignore="MissingConstraints" />
 
